@@ -146,7 +146,7 @@ def main() -> None:
             return await fetch_website(arguments["url"])
         elif name == "Time":
             return await fetch_time()  # Call fetch_time method
-        elif name == "System Info":
+        elif name == "SystemInfo":
             return await get_system_info()
         else:
             raise ValueError(f"Unknown tool: {name}")
